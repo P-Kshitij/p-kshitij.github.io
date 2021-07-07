@@ -60,6 +60,8 @@ to a distinct rational $q_x$ (disjoint), which implies that $\{I_x\}_{x \in E}$ 
 </div>
 More proofs to be added soon.
 
-
+<script>
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+</script>
 
 
