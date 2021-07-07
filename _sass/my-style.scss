@@ -12,3 +12,117 @@
     margin: 1rem 0;
   }
 }
+img[alt=dp]{
+  border: 4px solid rgb(208,155,50);
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+nav[id="breadcrumbs"]{
+  display: none;
+}
+
+.theorem {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+    background-color: rgba(255,253,211,1);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    // font-family: 'Benne', serif;
+    // font-size: 1.2em;
+}
+.theorem:before {
+    content: "Theorem.";
+    font-weight: bold;
+    font-style: normal;
+}
+.lemma {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+.lemma:before {
+    content: "Lemma.";
+    font-weight: bold;
+    font-style: normal;
+}
+.proof {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+.proof:before {
+    content: "Proof.";
+    font-style: italic;
+}
+.proof:after {
+    content: "\25FC";
+    float:right;
+}
+.definition {
+    display: block;
+    margin: 12px 0;
+    background-color: rgba(78, 114, 20,0.5);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-style: normal;
+}
+.definition:before {
+    content: "Definition.";
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.listOfPosts{
+  display: block;
+  //background-color: rgba(78, 114, 20, 0.3);
+  //border-radius: 10px;
+  //padding: 10px;
+}
+ol.listOfPosts {
+  list-style-type: lower-greek;
+}
+.highlight_thm{
+  background-color: rgba(255,253,211,1);
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+// div.mathtalkPost{
+//   font-family: 'Lato', sans-serif;
+// }
+.pre-base, article .katex-display, article mjx-container[jax][display="true"], pre {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    backface-visibility: hidden;
+}
+
+article mjx-container[jax][display="true"], pre, table:not(.rouge-table) {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    overflow-x:  visible;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+}
+.pre-base, article .katex-display, article mjx-container[jax][display="true"], pre {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    backface-visibility: hidden;
+}
+.claim {
+  display: block;
+  margin: 12px 0;
+  // font-family: 'Benne', serif;
+  // font-size: 1.2em;
+}
+.claim:before {
+  content: "Claim. ";
+  font-weight: bold;
+  font-style: normal;
+}
