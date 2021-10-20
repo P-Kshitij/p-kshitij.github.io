@@ -8,8 +8,7 @@ permalink: "/:title/"
 ---
 
 
-
-These days I have been reading Real Analysis by Royden in an attempt to get started with Measure Theory. Having just finished a course of Real Analysis last semester (textbook Rudin), most of the concepts of the first few chapters were already known. One of the results which I found a bit surprising is the following:
+Reading <em>Real Analysis</em> by <em>Royden</em>, one of the results which I found a bit surprising is the following:
 
 <div class="theorem">
 A non-empty open set of reals is the disjoint union of countably many open intervals

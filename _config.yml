@@ -56,6 +56,8 @@ menu:
     url:               /publications/
   - title:             Math Talk
     url:               /mathtalk/
+  - title:             AI Talk
+    url:               /aitalk/
   - title:             Resume
     url:               /resume/
 
@@ -114,6 +116,8 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
 
+favicon:               
+apple_touch_icon: 
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:

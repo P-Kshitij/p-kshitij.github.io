@@ -72,11 +72,53 @@ nav[id="breadcrumbs"]{
     font-style: normal;
 }
 .definition:before {
-    content: "Definition.";
+    content: "Definition. \A";
+    white-space: pre;
     font-weight: bold;
     font-style: normal;
 }
 
+.problem {
+  display: block;
+  margin: 12px 0;
+  background-color: rgba(179, 179, 176, 0.5);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-style: normal;
+}
+
+.problem:before {
+  content: "Problem. \A";
+  white-space: pre;
+  font-weight: bold;
+  font-style: normal;
+}
+.solution {
+  display: block;
+  margin: 12px 0;
+  //background-color: rgba(179, 179, 176, 0.5);
+  padding: 10px;
+  //border: 2px solid black;
+  //border-radius: 10px;
+  font-style: normal;
+}
+
+.solution:before {
+  content: "Solution. \A";
+  white-space: pre;
+  font-weight: bold;
+  font-style: normal;
+}
+.solution:after {
+  content: '';
+  display: block;
+  margin: 1em 0;
+  height: 1px;
+  width: 80%;
+  background-color: rgba(128,128,128, 0.5);
+  //border-radius: 1px;
+}
 div.listOfPosts{
   display: block;
   //background-color: rgba(78, 114, 20, 0.3);
@@ -97,24 +139,24 @@ ol.listOfPosts {
 // }
 .pre-base, article .katex-display, article mjx-container[jax][display="true"], pre {
     padding: 1rem;
-    margin-bottom: 1.5rem;
-    background-color: white;
+    margin-bottom: 1rem;
+    background-color: transparent;
     backface-visibility: hidden;
 }
 
-article mjx-container[jax][display="true"], pre, table:not(.rouge-table) {
-    margin-left: -1rem;
-    margin-right: -1rem;
-    overflow-x:  visible;
-    overflow-y: visible;
-    -webkit-overflow-scrolling: touch;
-}
-.pre-base, article .katex-display, article mjx-container[jax][display="true"], pre {
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    background-color: white;
-    backface-visibility: hidden;
-}
+// article mjx-container[jax][display="true"], pre, table:not(.rouge-table) {
+//     margin-left: -1rem;
+//     margin-right: -1rem;
+//     overflow-x:  visible;
+//     overflow-y: visible;
+//     -webkit-overflow-scrolling: touch;
+// }
+// .pre-base, article .katex-display, article mjx-container[jax][display="true"], pre {
+//     padding: 1.5rem;
+//     margin-bottom: 1.5rem;
+//     background-color: white;
+//     backface-visibility: hidden;
+// }
 .claim {
   display: block;
   margin: 12px 0;
@@ -125,4 +167,61 @@ article mjx-container[jax][display="true"], pre, table:not(.rouge-table) {
   content: "Claim. ";
   font-weight: bold;
   font-style: normal;
+}
+.impnote:before {
+  content: " ⚠️  Note \A";
+  white-space: pre;
+  font-weight: bold;
+  font-style: normal;
+}
+.impnote{
+  display: block;
+  margin: 12px 0;
+  background-color: rgba(185, 77, 77, 0.8);
+  text-shadow: #4db9b9;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-style: normal;
+}
+// .MathJax {
+// background-color: inherit !important;
+// width: inherit !important;
+// overflow: scale;
+// }
+
+// .MathJax, .MathJax_display {
+//   display : block !important; 
+//   //font-weight: bold !important;
+//   //font-family: inherit !important;
+// // font-size: 150% !important;
+// }
+
+.post-container {
+  display: flex;
+  margin: 10px 10px 0 0;  
+  //border: 1px solid #333;
+  overflow: auto
+}
+.post-thumb {
+  float: left;
+  padding : 10px;
+}
+.post-thumb img {
+  // display: inline-block;
+  // vertical-align: middle;
+  // margin: auto;
+  width: 150px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+}
+.post-content {
+  margin-left: 15px;
+  font-size: 90%;
+}
+.post-title {
+  font-weight: bold;
+  font-size: 120%
 }
