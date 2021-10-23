@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Statistical Guide to loss functions"
+title:  "Statistical Guide to loss functions 🚧"
 date:   2021-06-26 12:23:01 +0530
 categories: [aitalk]
 description: "A different perspective on loss functions using Statistical Learning Theory"
 permalink: "/aitalk/statguide_lossfuncs/"
 ---
+> Under construction! 🚧 
 
 Often in practice, we are see a variety of loss functions in different domains. Intuitively, we may erroneously think (atleast I did) of them as computationally different ways of arriving at the same target.
 
@@ -23,7 +24,6 @@ What is the advantage of choosing one over the other? In a "hand-wavy" sense bot
 <img src="/images/statguide_loss_fig2.png" width="600" />
 </div>
 
-> Under construction! 🚧 
 
 <script>
 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
